@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <h1 class="text-center mt-5 text-green">Découvrez Edenio</h1>
+  <h1 class="text-center mt-5 text-green">Découvrez Edenios</h1>
   <div class="flex justify-center">
     <img src="../public/imageindex1.webp" alt="" class="h-40 w-40" />
   </div>
