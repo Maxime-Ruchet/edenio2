@@ -6,6 +6,6 @@ const evenementliste = await Allevenement();
 </script>
 
 <template>
-  <h1 class="text-green text-center mt-8">Évènements</h1>
+  <h1 class="text-green text-center mt-8">evenements</h1>
 <evenement v-for="evenement of evenementliste" v-bind="{ ...evenement }"/>
   </template>

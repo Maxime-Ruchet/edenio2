@@ -6,6 +6,6 @@ const glossaireliste = await Allglossaire();
 </script>
 
 <template>
-    <h1 class="text-green text-center mt-8">Glossair</h1>
+    <h1 class="text-green text-center mt-8">evenements</h1>
   <glossaire v-for="glossaire of glossaireliste" v-bind="{ ...glossaire }"/>
     </template>

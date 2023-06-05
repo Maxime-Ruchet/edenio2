@@ -3,12 +3,12 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <h1 class="text-center mt-5 text-green">Découvrez Edenios</h1>
+  <h1 class="text-center mt-5 text-green">Découvrez Edenio</h1>
   <div class="flex justify-center">
     <img src="../public/imageindex1.webp" alt="" class="h-40 w-40" />
   </div>
 
-  <h2 class="text-center mt-5 text-green">UnE sélection durable et savoureuse</h2>
+  <h2 class="text-center mt-5 text-green">Une sélection durable et savoureuse</h2>
   <p class="ml-5 m-auto mt-5 lg:text-center">
     Explorez notre site local dédié à la nourriture bio et découvrez une sélection fraîche et
     savoureuse, issue de producteurs locaux engagés dans une agriculture durable.
@@ -39,7 +39,7 @@ import { RouterLink } from 'vue-router'
     /></RouterLink>
   </div>
 
-  <div class="bg-yellow3 pb-8">
+  <div class="bg-yellow3">
     <h2 class="text-center mt-5 text-green">
       Edenio c’est la solution pour une alimentation saine, des économies et pour préserver
       l’environnement.

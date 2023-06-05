@@ -37,7 +37,7 @@ export async function oneIDproduits(id: string) {
 }
 
 export async function Allrecettes() {
-  const records = await pb.collection('recettes').getFullList<RecettesResponse>();
+  const records = await pb.collection('recettes').getFullList<RecettesResponse>()
   return records
 }
 

@@ -24,7 +24,7 @@ import Iconsuivi from '../components/icons/iconsuivi.vue'
         <img src="../public/imagesuivi3.webp" alt="Image 2" class="w-24 h-24 object-cover" />
       </div>
     </div>
-    <div class="w-full  sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-2">
+    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-2">
       <div class="flex justify-center">
         <img src="../public/imagesuivi4.webp" alt="Image 3" class="w-24 h-24 object-cover" />
       </div>
@@ -60,7 +60,7 @@ import Iconsuivi from '../components/icons/iconsuivi.vue'
     </div>
   </div>
 
-  <div class="flex items-center justify-center mb-10">
+  <div class="flex items-center justify-center mt-10">
     <div class="bg-green2 w-96 h-48 rounded-r-full flex">
       <div class="w-1/2 flex flex-col justify-between">
         <p class="ml-16">Gain 10,0kg</p>
