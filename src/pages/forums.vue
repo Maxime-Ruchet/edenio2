@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto py-8">
-    <h1 class="text-center mb-8 text-green">Forum</h1>
+    <h1 class="text-center mb-8 text-green">Forums</h1>
     <div class="flex flex-col md:flex-row">
       <div class="md:w-3/4 p-4">
         <div class="bg-white p-4 rounded shadow border-l-2 border-l-green">
