@@ -10,9 +10,7 @@ import Iconhorloge from '../components/icons/iconehorloge.vue'
 </script>
 
 <template>
-    <div
-    class="space-y-0 pt-10 max-w-screen-xl ml-9 grid grid-cols-3 gp-8 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0 lg:ml-60"
-  >
+
     <div class="break-inside-avoid space-y-3">
         <img :src="urlImg0" class="h-20 w-20">
         <p>{{ titre }}</p>
@@ -21,5 +19,5 @@ import Iconhorloge from '../components/icons/iconehorloge.vue'
         <p>{{ heure }}</p>
       </div>
     </div>
-    </div>
+
   </template>
