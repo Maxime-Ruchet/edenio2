@@ -8,7 +8,7 @@ import { RouterLink } from 'vue-router'
     <img src="../public/imageindex1.webp" alt="" class="h-40 w-40" />
   </div>
 
-  <h2 class="text-center mt-5 text-green">Une sélection durable et savoureuse</h2>
+  <h2 class="text-center mt-5 text-green">UnE sélection durable et savoureuse</h2>
   <p class="ml-5 m-auto mt-5 lg:text-center">
     Explorez notre site local dédié à la nourriture bio et découvrez une sélection fraîche et
     savoureuse, issue de producteurs locaux engagés dans une agriculture durable.
