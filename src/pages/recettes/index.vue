@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {pb} from '@/backend'
-import recettes from '@/components/Cardrecettes.vue'
-import { Allrecettes } from '@/backend';
+import {pb} from '../../backend'
+import recettes from '../../components/Cardrecettes.vue'
+import { Allrecettes } from '../../backend';
 const recettesliste = await Allrecettes();
 </script>
 

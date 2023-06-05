@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
-import IconLogo from '@/components/icons/iconelogo.vue'
+import IconLogo from '../components/icons/iconelogo.vue'
 import { RouterLink } from 'vue-router'
-import Iconpanier from '@/components/icons/iconepanier2.vue'
-import Iconnventaire from '@/components/icons/iconeinventaire.vue'
-import Iconpomme from '@/components/icons/iconepomme.vue'
-import Iconmessage from '@/components/icons/iconemessage.vue'
-import Iconbalance from '@/components/icons/iconebalance.vue'
-import Iconcalandar from '@/components/icons/iconecalendar.vue'
-import Iconinterro from '@/components/icons/iconeinterro.vue'
-import Iconlivre from '@/components/icons/iconelivre.vue'
+import Iconpanier from '../components/icons/iconepanier2.vue'
+import Iconnventaire from '../components/icons/iconeinventaire.vue'
+import Iconpomme from '../components/icons/iconepomme.vue'
+import Iconmessage from '../components/icons/iconemessage.vue'
+import Iconbalance from '../components/icons/iconebalance.vue'
+import Iconcalandar from '../components/icons/iconecalendar.vue'
+import Iconinterro from '../components/icons/iconeinterro.vue'
+import Iconlivre from '../components/icons/iconelivre.vue'
 
 const menuIsOpen = ref(false)
 </script>

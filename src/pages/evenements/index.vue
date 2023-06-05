@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {pb} from '@/backend'
-import evenement from '@/components/Cardevenements.vue'
-import { Allevenement } from '@/backend';
+import {pb} from '../../backend'
+import evenement from '../../components/Cardevenements.vue'
+import { Allevenement } from '../../backend';
 const evenementliste = await Allevenement();
 </script>
 

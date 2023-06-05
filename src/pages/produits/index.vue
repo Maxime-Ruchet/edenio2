@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {pb} from '@/backend'
-import produits from '@/components/Cardproduits.vue'
-import { Allproduits } from '@/backend';
+import {pb} from '../../backend'
+import produits from '../../components/Cardproduits.vue'
+import { Allproduits } from '../../backend';
 const produitsliste = await Allproduits();
 </script>
 

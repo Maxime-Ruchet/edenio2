@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {pb} from '@/backend'
-import glossaire from '@/components/Cardglossaire.vue'
-import { Allglossaire } from '@/backend';
+import {pb} from '../../backend'
+import glossaire from '../../components/Cardglossaire.vue'
+import { Allglossaire } from '../../backend';
 const glossaireliste = await Allglossaire();
 </script>
 
