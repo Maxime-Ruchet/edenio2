@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import type { GlossaireResponse } from '@/pocketbase-types'
+import type { GlossaireResponse } from '../pocketbase-types'
 const props: GlossaireResponse = defineProps<GlossaireResponse>()
 import {pb} from '@/backend' 
-import { oneIDglossaire } from '@/backend'
+import { oneIDglossaire } from '../backend'
 const unglossaire = await oneIDglossaire(props.id)
 </script>
 

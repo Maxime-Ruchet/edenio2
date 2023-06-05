@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import IconInstagram from '@/components/icons/iconeinstagram.vue'
-import Icontwitter from '@/components/icons/twitter.vue'
-import Iconfacebook from '@/components/icons/facebook.vue'
+import IconInstagram from '../components/icons/iconeinstagram.vue'
+import Icontwitter from '../components/icons/twitter.vue'
+import Iconfacebook from '../components/icons/facebook.vue'
 import Iconelogo from './icons/iconelogo.vue'
 import { RouterLink } from 'vue-router'
 </script>

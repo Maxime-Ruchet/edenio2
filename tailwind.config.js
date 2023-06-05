@@ -7,7 +7,12 @@ module.exports = {
   ],
   
   theme: {
-    colors: {
+    fontFamily: {
+      sans: ['Itim',],
+      serif: ['Itim',]
+    },
+    extend: {
+      colors: {
       indigo: '#1d096b',
       green: '#336633',
       white: '#ffffff',
@@ -18,12 +23,7 @@ module.exports = {
       green2: '#54A32F',
       yellow3: '#F1F2EA',
       gray: colors.zinc
-    },
-    fontFamily: {
-      sans: ['Itim',],
-      serif: ['Itim',]
-    },
-    extend: {},
+    },},
   },
   plugins: [],
   

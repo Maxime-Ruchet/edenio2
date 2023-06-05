@@ -1,9 +1,6 @@
 import PocketBase from 'pocketbase' ;
 export const pb = new PocketBase('http://127.0.0.1:8090') ;
-import type { EvenementResponse } from './pocketbase-types';
-import type { GlossaireResponse } from './pocketbase-types';
-import type { ProduitsResponse } from './pocketbase-types';
-import type { RecettesResponse } from './pocketbase-types';
+import type { EvenementResponse, GlossaireResponse, ProduitsResponse, RecettesResponse } from './pocketbase-types';
 
 export async function Allevenement() {
   const records = await pb.collection('evenement').getFullList<EvenementResponse>()

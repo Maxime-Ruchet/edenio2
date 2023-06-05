@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { ProduitsResponse } from '@/pocketbase-types'
+import type { ProduitsResponse } from '../pocketbase-types'
 const props: ProduitsResponse = defineProps<ProduitsResponse>()
-import {pb} from '@/backend' 
+import {pb} from '../backend' 
 const urlImg0 = props.image ? pb.getFileUrl(props, props.image, { thumb: '100x250' }) : '/image-not-found.png'
 console.log(urlImg0)
-import { oneIDproduits } from '@/backend'
+import { oneIDproduits } from '../backend'
 const unproduits = await oneIDproduits(props.id)
 </script>
 
