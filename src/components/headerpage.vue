@@ -110,11 +110,12 @@ const menuIsOpen = ref(false)
         <button class="flex-1 p-4 text-white hidden lg:flex-none lg:px-6 sm:block">
           <Iconpanier></Iconpanier>
         </button>
-        <button
+        <RouterLink to="/conexion" @click="menuIsOpen = false">         <button
           class="flex-1 p-4 rounded-lg border-2 border-green text-green font-bold lg:flex-none lg:px-6"
         >
           Connexion
         </button>
+    </RouterLink>
         <button class="flex-1 p-4 rounded-lg bg-green text-white font-bold lg:flex-none lg:px-6">
           Inscription
         </button>

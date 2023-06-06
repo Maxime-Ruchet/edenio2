@@ -12,7 +12,6 @@
     "format": "prettier --write src/",
     "typegen": "pocketbase-typegen --db ./pocketbase/pb_data/data.db --out ./src/pocketbase-types.ts"
   },
-  
   "dependencies": {
     "@fawmi/vue-google-maps": "^0.9.79",
     "@types/googlemaps": "^3.43.3",
