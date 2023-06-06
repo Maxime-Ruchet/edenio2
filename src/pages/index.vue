@@ -4,33 +4,34 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <h1 class="text-center mt-5 text-green">Découvrez Edenio</h1>
-  <div class="flex justify-center">
+  <div class="grid grid-cols-1 lg:grid-cols-3">
+  <div class="flex justify-center flex-col items-center">
     <img src="../public/imageindex1.webp" alt="" class="h-40 w-40" />
+    <h2 class="text-center mt-5 text-green">Une sélection durable et savoureuse</h2>
+    <p class="ml-5 m-auto mt-5 lg:text-center">
+      Explorez notre site local dédié à la nourriture bio et découvrez une sélection fraîche et savoureuse, issue de producteurs locaux engagés dans une agriculture durable.
+    </p>
   </div>
 
-  <h2 class="text-center mt-5 text-green">Une sélection durable et savoureuse</h2>
-  <p class="ml-5 m-auto mt-5 lg:text-center">
-    Explorez notre site local dédié à la nourriture bio et découvrez une sélection fraîche et
-    savoureuse, issue de producteurs locaux engagés dans une agriculture durable.
-  </p>
-
-  <div class="flex justify-center">
+  <div class="flex justify-center flex-col items-center">
     <img src="../public/imageindex2.webp" alt="" class="h-40 w-40" />
+    <h2 class="text-center mt-5 text-green">Des recettes illimitées !</h2>
+    <p class="ml-5 m-auto mt-5 lg:text-center">
+      Faites le choix d'une alimentation saine et respectueuse de l'environnement en optant pour nos produits bio, cultivés avec soin et exempts de pesticides.
+    </p>
   </div>
-  <h2 class="text-center mt-5 text-green">Des recettes illimitées !</h2>
-  <p class="ml-5 m-auto mt-5 lg:text-center">
-    Faites le choix d'une alimentation saine et respectueuse de l'environnement en optant pour nos
-    produits bio, cultivés avec soin et exempts de pesticides.
-  </p>
 
-  <div class="flex justify-center">
+  <div class="flex justify-center flex-col items-center">
     <img src="../public/imageindex3.webp" alt="" class="h-40 w-40" />
+    <h2 class="text-center mt-5 text-green">Une communauté en or !</h2>
+    <p class="ml-5 m-auto mt-5 lg:text-center">
+      Rejoignez notre communauté bio et savourez des saveurs authentiques tout en soutenant une agriculture locale et durable.
+    </p>
   </div>
-  <h2 class="text-center mt-5 text-green">Une communauté en or !</h2>
-  <p class="ml-5 m-auto mt-5 lg:text-center">
-    Rejoignez notre communauté bio et savourez des saveurs authentiques tout en soutenant une
-    agriculture locale et durable.
-  </p>
+</div>
+
+
+
 
   <h2 class="text-center mt-5 text-green">Trouvez des producteurs locaux près de chez vous !</h2>
   <div class="flex justify-center">
