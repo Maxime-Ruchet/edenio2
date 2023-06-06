@@ -7,5 +7,7 @@ const glossaireliste = await Allglossaire();
 
 <template>
     <h1 class="text-green text-center mt-8">Glossaire</h1>
+
   <glossaire v-for="glossaire of glossaireliste" v-bind="{ ...glossaire }"/>
+
     </template>
